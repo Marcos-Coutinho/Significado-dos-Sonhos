@@ -4,6 +4,9 @@
     <description>
         Descubra o significado de seus sonhos.
     </description>
+    <author email="marcoscout77@gmail.com" href="http://marcoscoutinho.com">
+        Marcos Coutinho
+    </author>
     <author email="marcoscoutinho.com" href="http://marcoscoutinho.com">Marcos Coutinho</author>
     <content src="splash.html" />
 	<preference name="orientation" value="portrait" />
@@ -11,7 +14,7 @@
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="21" />
     <preference name="StatusBarOverlaysWebView" value="true" />
-    <preference name="StatusBarBackgroundColor" value="#248a41" /> <!--  -->	
+    <preference name="StatusBarBackgroundColor" value="#30334a" /> <!--  -->	
 	<preference name="StatusBarDefaultScrollToTop" value="false" />
 	<preference name="StatusBarStyle" value="lightcontent" />  <!-- lightcontent  blacktranslucent -->
 
