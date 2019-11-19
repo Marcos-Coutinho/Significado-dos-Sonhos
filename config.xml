@@ -54,6 +54,21 @@
         <variable name="SENDER_ID" value="XXXXXXX" />
     </plugin>
 	
+	<plugin name="cordova-plugin-calendar"/>
+    <plugin name="cordova-plugin-flashlight"/>
+    <plugin name="cordova-plugin-x-toast"/>
+    <plugin name="cordova-plugin-insomnia"/>
+    <plugin name="cordova-plugin-sslcertificatechecker"/>
+    <plugin name="cordova-plugin-actionsheet"/>
+    <plugin name="com.telerik.plugins.nativepagetransitions"/>
+    <plugin name="cordova-plugin-wkwebview"/>
+    <plugin name="cordova-plugin-customurlscheme">
+      <param name="URL_SCHEME" value="xpluginsdemo" />
+    </plugin>
+    <plugin name="cordova-plugin-mapbox">
+      <param name="ACCESS_TOKEN" value="---YOUR---KEY---" />
+    </plugin>
+	
 	<!-- for iOS -->
 	<feature name="SocialSharing">
 		<param name="ios-package" value="SocialSharing" />
