@@ -13,6 +13,7 @@
 <!-- Custom Theme files -->
 <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
 <link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+<link href="css/style_resultado.css" type="text/css" rel="stylesheet" media="all">
 <link href="css/style_autocomplete_pesquisa.css"  type="text/css" rel="stylesheet">
 <link href="css/responsivo.css" type="text/css" rel="stylesheet" media="all">
 <!-- //Custom Theme files -->
@@ -66,7 +67,7 @@
 					<div class="autocomplete">
 						<input id="myInput" type="text" name="Pesquisar" placeholder="Pesquise aqui...">						
 					</div>					
-					<input type="submit" class="" value="Buscar">
+					<input type="submit" value="Buscar">
 				</form> 
 			<div class="clearfix"></div>
 		</div>
@@ -74,9 +75,7 @@
 		
 		<!-- Início Conteúdo -->
 		<div class="conteudo">
-			<script src="js/autocomplete2.js"></script>
-			
-			
+			<script src="js/autocomplete.js"></script>			
 		</div>
 		<!-- Fim conteúdo -->
 		
@@ -90,12 +89,9 @@
 	
 	<!-- Início nice scroll-js -->	
 	<script>
-		$(document).ready(function() {
-	  
-			var nice = $("html").niceScroll();  // The document page (body)
-		
-			$("#div1").html($("#div1").html()+' '+nice.version);
-		
+		$(document).ready(function() {	  
+			var nice = $("html").niceScroll();  // The document page (body)		
+			$("#div1").html($("#div1").html()+' '+nice.version);		
 			$("#boxscroll").niceScroll({cursorborder:"",cursorcolor:"#00F",boxzoom:true}); // First scrollable DIV
 		});
 	</script>
@@ -198,8 +194,7 @@
 		document.addEventListener("click", function (e) {
 			closeAllLists(e.target);
 		});
-		}
-		
+		}		
 		/*An array containing all the country names in the world:*/
 		var countries = [
 		"Afghanistan",
@@ -234,8 +229,7 @@
 		"Bulgaria",
 		"Burkina Faso",
 		"Burundi"
-		];
-		
+		];		
 		/*initiate the autocomplete function on the "myInput" element, and pass along the countries array as possible autocomplete values:*/
 		autocomplete(document.getElementById("myInput"), countries);
 	</script>
