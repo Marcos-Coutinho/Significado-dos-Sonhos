@@ -48,7 +48,7 @@
     <plugin name="cordova-plugin-media" source="npm" spec="~2.2.0" />
     <plugin name="cordova-plugin-network-information" source="npm" spec="~1.2.0" />
     <plugin name="cordova-plugin-vibration" source="npm" spec="~2.1.0" />
-    <!-- <plugin name="cordova-plugin-x-socialsharing" source="npm" /> -->
+    <plugin name="cordova-plugin-x-socialsharing" source="npm" version="5.4.0" />
     <plugin name="cordova-clipboard" source="npm" />    
 	<plugin name="phonegap-plugin-push" source="npm" spec="~1.8.0">
         <variable name="SENDER_ID" value="XXXXXXX" />
@@ -89,6 +89,7 @@
         <splash density="land-xxhdpi" src="www/res/screen/android/drawable-land-xxhdpi-screen.png" />
         <splash density="land-xxxhdpi" src="www/res/screen/android/drawable-land-xxxhdpi-screen.png" />        
     </platform>
+	
     <platform name="ios">
         <icon height="57" platform="ios" src="www/res/icon/ios/icon.png" width="57" />
         <icon height="114" platform="ios" src="www/res/icon/ios/icon@2x.png" width="114" />
