@@ -1,34 +1,8 @@
-.logo_splash{
-
-}
-
-.logo_splash img{
-	width:60%;
-	height:auto;
-	margin: 0 auto;
-	position: absolute;
-	top: 20%;
-	left: 50%;
-	-webkit-transform: translateY(-20%) translateX(-50%);
-}
-
-.texto {
-	padding-top:100px;
-	font-family:'Open Sans', sans-serif;
-	font-size:12px;
-	margin: 0 auto;
-	width: 60px;
-	height: 50px;
-	text-align: center;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	-webkit-transform: translateY(-50%) translateX(-50%);  
-}
 
 body {
   -webkit-user-select: none;
   overflow: hidden;
+  background: #30334a;
 }
 body .vertical-centered-box {
   position: absolute;
@@ -57,9 +31,7 @@ body .vertical-centered-box .content {
   font-size: 0;
   opacity: 0;
 }
-body {
-  background: #000;
-}
+
 .loader-line-mask {
   position: absolute;
   left: 50%;
