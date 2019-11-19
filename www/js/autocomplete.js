@@ -62,8 +62,8 @@ function get_query (){
 }	
 	
 function no_query_found (){	
-	document.writeln("<div style='height:468px;'>");
-	document.writeln ('<CENTER><br><P>Pesquisa em branco.</P><br></CENTER>');
+	document.writeln("<div class='pesquisa_branco'>");
+		document.writeln ('<CENTER><br><P>Pesquisa em branco.</P><br></CENTER>');
 	document.writeln("</div>");
 }
 	
@@ -141,28 +141,28 @@ function begin_search (){
 the_entries = new Array ();
 	
 	//aqui vai as entradas para a pesquisa	
-	the_entries[0] = new entry ("http://www.google.com.br", "São Francisco de Paula", "leandro, autor, webmaster, dono, desenvolvedor, contatos, icq, contato, parcerias ","<br>");	
-	the_entries[1] = new entry ("http://www.google.com.br","Brazil","brazil, desenhos, ikki, IkkiNet, IkkiNET, SSJ_Clan, SSJ, afiliados, aliados, amigos, afilia-se","<br>");	
+	the_entries[0] = new entry ("http://www.google.com.br","São Francisco de Paula", "leandro, autor, webmaster, dono, desenvolvedor, contatos, icq, contato, parcerias ","<br>");	
+	the_entries[1] = new entry ("http://www.google.com.br","Belém","brazil, desenhos, ikki, IkkiNet, IkkiNET, SSJ_Clan, SSJ, afiliados, aliados, amigos, afilia-se","<br>");	
 	the_entries[2] = new entry ("http://www.google.com.br","Monte Alegre Pará","brazil, desenhos, ikki, IkkiNet, IkkiNET, SSJ_Clan, SSJ, afiliados, aliados, amigos, afilia-se","<br>");
 	the_entries[3] = new entry ("http://www.google.com.br","Manaus","brazil, desenhos, ikki, IkkiNet, IkkiNET, SSJ_Clan, SSJ, afiliados, aliados, amigos, afilia-se","<br>");
 	the_entries[4] = new entry ("http://www.google.com.br","Santarém","brazil, desenhos, ikki, IkkiNet, IkkiNET, SSJ_Clan, SSJ, afiliados, aliados, amigos, afilia-se","<br>");
-	the_entries[5] = new entry ("http://www.google.com.br", "São Francisco de Paula", "leandro, autor, webmaster, dono, desenvolvedor, contatos, icq, contato, parcerias ","<br>");	
+	the_entries[5] = new entry ("http://www.google.com.br","São Francisco de Paula", "leandro, autor, webmaster, dono, desenvolvedor, contatos, icq, contato, parcerias ","<br>");	
 	the_entries[6] = new entry ("http://www.google.com.br","Brazil","brazil, desenhos, ikki, IkkiNet, IkkiNET, SSJ_Clan, SSJ, afiliados, aliados, amigos, afilia-se","<br>");	
 	the_entries[7] = new entry ("http://www.google.com.br","Monte Alegre Pará","brazil, desenhos, ikki, IkkiNet, IkkiNET, SSJ_Clan, SSJ, afiliados, aliados, amigos, afilia-se","<br>");
 	the_entries[8] = new entry ("http://www.google.com.br","Manaus","brazil, desenhos, ikki, IkkiNet, IkkiNET, SSJ_Clan, SSJ, afiliados, aliados, amigos, afilia-se","<br>");
 	the_entries[9] = new entry ("http://www.google.com.br","Santarém","brazil, desenhos, ikki, IkkiNet, IkkiNET, SSJ_Clan, SSJ, afiliados, aliados, amigos, afilia-se","<br>");
-	the_entries[10] = new entry ("http://www.google.com.br", "São Francisco de Paula", "leandro, autor, webmaster, dono, desenvolvedor, contatos, icq, contato, parcerias ","<br>");	
-	the_entries[11] = new entry ("http://www.google.com.br","Brazil","brazil, desenhos, ikki, IkkiNet, IkkiNET, SSJ_Clan, SSJ, afiliados, aliados, amigos, afilia-se","<br>");	
+	the_entries[10] = new entry ("http://www.google.com.br","São Francisco de Paula", "leandro, autor, webmaster, dono, desenvolvedor, contatos, icq, contato, parcerias ","<br>");	
+	the_entries[11] = new entry ("http://www.google.com.br","Belém","brazil, desenhos, ikki, IkkiNet, IkkiNET, SSJ_Clan, SSJ, afiliados, aliados, amigos, afilia-se","<br>");	
 	the_entries[12] = new entry ("http://www.google.com.br","Monte Alegre Pará","brazil, desenhos, ikki, IkkiNet, IkkiNET, SSJ_Clan, SSJ, afiliados, aliados, amigos, afilia-se","<br>");
 	the_entries[13] = new entry ("http://www.google.com.br","Manaus","brazil, desenhos, ikki, IkkiNet, IkkiNET, SSJ_Clan, SSJ, afiliados, aliados, amigos, afilia-se","<br>");
 	the_entries[14] = new entry ("http://www.google.com.br","Santarém","brazil, desenhos, ikki, IkkiNet, IkkiNET, SSJ_Clan, SSJ, afiliados, aliados, amigos, afilia-se","<br>");
-	the_entries[15] = new entry ("http://www.google.com.br", "São Francisco de Paula", "leandro, autor, webmaster, dono, desenvolvedor, contatos, icq, contato, parcerias ","<br>");	
-	the_entries[16] = new entry ("http://www.google.com.br","Brazil","brazil, desenhos, ikki, IkkiNet, IkkiNET, SSJ_Clan, SSJ, afiliados, aliados, amigos, afilia-se","<br>");	
+	the_entries[15] = new entry ("http://www.google.com.br","São Francisco de Paula", "leandro, autor, webmaster, dono, desenvolvedor, contatos, icq, contato, parcerias ","<br>");	
+	the_entries[16] = new entry ("http://www.google.com.br","Belém","brazil, desenhos, ikki, IkkiNet, IkkiNET, SSJ_Clan, SSJ, afiliados, aliados, amigos, afilia-se","<br>");	
 	the_entries[17] = new entry ("http://www.google.com.br","Monte Alegre Pará","brazil, desenhos, ikki, IkkiNet, IkkiNET, SSJ_Clan, SSJ, afiliados, aliados, amigos, afilia-se","<br>");
 	the_entries[18] = new entry ("http://www.google.com.br","Manaus","brazil, desenhos, ikki, IkkiNet, IkkiNET, SSJ_Clan, SSJ, afiliados, aliados, amigos, afilia-se","<br>");
 	the_entries[19] = new entry ("http://www.google.com.br","Santarém","brazil, desenhos, ikki, IkkiNet, IkkiNET, SSJ_Clan, SSJ, afiliados, aliados, amigos, afilia-se","<br>");
-	the_entries[20] = new entry ("http://www.google.com.br", "São Francisco de Paula", "leandro, autor, webmaster, dono, desenvolvedor, contatos, icq, contato, parcerias ","<br>");	
-	the_entries[21] = new entry ("http://www.google.com.br","Brazil","brazil, desenhos, ikki, IkkiNet, IkkiNET, SSJ_Clan, SSJ, afiliados, aliados, amigos, afilia-se","<br>");	
+	the_entries[20] = new entry ("http://www.google.com.br","São Francisco de Paula", "leandro, autor, webmaster, dono, desenvolvedor, contatos, icq, contato, parcerias ","<br>");	
+	the_entries[21] = new entry ("http://www.google.com.br","Belém","brazil, desenhos, ikki, IkkiNet, IkkiNET, SSJ_Clan, SSJ, afiliados, aliados, amigos, afilia-se","<br>");	
 	the_entries[22] = new entry ("http://www.google.com.br","Monte Alegre Pará","brazil, desenhos, ikki, IkkiNet, IkkiNET, SSJ_Clan, SSJ, afiliados, aliados, amigos, afilia-se","<br>");
 	the_entries[23] = new entry ("http://www.google.com.br","Manaus","brazil, desenhos, ikki, IkkiNet, IkkiNET, SSJ_Clan, SSJ, afiliados, aliados, amigos, afilia-se","<br>");
 	the_entries[24] = new entry ("http://www.google.com.br","Santarém","brazil, desenhos, ikki, IkkiNet, IkkiNET, SSJ_Clan, SSJ, afiliados, aliados, amigos, afilia-se","<br>");
@@ -170,7 +170,7 @@ the_entries = new Array ();
 	
 	//abaixo vai o número de entradas existentes	
 	var entry_num = 25; //aumenta de acordo com as obcoes de busca no caso 2 ate agora	
-	var max_keywords = 1; //aumenta de acordo com as obcoes de busca no caso 2 ate agora	
+	var max_keywords = 20; //aumenta de acordo com as obcoes de busca no caso 2 ate agora	
 	var points_title = 25; //aumenta de acordo com as obcoes de busca no caso 2 ate agora	
 	var points_keywords = 25; //aumenta de acordo com as obcoes de busca no caso 2 ate agora	
 	var points_description = 1;	
