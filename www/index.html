@@ -53,7 +53,17 @@
 			<div class="bt_pesquisa">
 				<button onclick="socialsharingDemo()"><img src="img/share.svg"></button>
 				
-				
+				<script type="text/javascript" src="http://renatooromao-blog.azurewebsites.net/js/SocialSharing.js"></script>
+				<script>
+					function SocialShare(titulo, imagem) {
+  $('#btnCompartilhar').on("tap click", function () {
+     window.plugins.socialsharing.share(titulo, null, imagem, null);
+  });
+}
+
+
+SocialShare(tituloParaCompartilhar, urlDaSuaImagem); //Chamando meu método
+				</script>
 			</div> 
 			<div class="clearfix"></div>
 		</div>		
@@ -240,7 +250,7 @@
 		autocomplete(document.getElementById("myInput"), countries);
 	</script>
 	<!-- fim auto-complete-js -->	
-<script src="js/socialsharing-plugin-demo.js"></script>
-<script type="text/javascript" src="js/index.js"></script>
+
+
 </body>
 </html>
