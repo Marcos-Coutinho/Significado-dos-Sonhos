@@ -30,8 +30,8 @@
 			<ul class="icon-list">
 				<li class="menu-title">MENU</li>
 				<li><a href="index.html">Início</a></li>
+				<li><a href="#">Sobre o App</a></li>
 				<li><a href="#">Avalie o App</a></li>
-				<li><a href="#">Sobre nosso App</a></li>
 				<li><a href="#">Política de Privacidade</a></li>
 			</ul>
 		</nav>
@@ -54,20 +54,8 @@
 				<a href="javascript:void(0)" onclick="share()" class="bt_share">
 					<img src="img/share.svg">
 				</a>
-<script>
-function share(){
-	if (navigator.share !== undefined) {
-		navigator.share({
-			title: 'O título da sua página',
-			text: 'Um texto de resumo',
-			url: 'https://seusite.com/sua_url',
-		})
-		.then(() => console.log('Successful share'))
-		.catch((error) => console.log('Error sharing', error));
-	}
-}
-</script>
-				
+				<script type="text/javascript" src="cordova.js"></script>
+				<script src="js/socialsharing-plugin-demo.js"></script>
 			</div> 
 			<div class="clearfix"></div>
 		</div>		
