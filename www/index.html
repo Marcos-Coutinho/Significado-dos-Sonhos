@@ -50,20 +50,24 @@
 			<div class="logo">				
 				<img src="img/logo-01.svg" alt="">				
 			</div>
-			<div class="bt_pesquisa">
-				<button onclick="socialsharingDemo()"><img src="img/share.svg"></button>
-				
-				<script type="text/javascript" src="http://renatooromao-blog.azurewebsites.net/js/SocialSharing.js"></script>
-				<script>
-					function SocialShare(titulo, imagem) {
-  $('#btnCompartilhar').on("tap click", function () {
-     window.plugins.socialsharing.share(titulo, null, imagem, null);
-  });
+			<div class="bt_pesquisa">				
+				<a href="javascript:void(0)" onclick="share()" class="bt_share">
+					<img src="img/share.svg">
+				</a>
+<script>
+function share(){
+	if (navigator.share !== undefined) {
+		navigator.share({
+			title: 'O título da sua página',
+			text: 'Um texto de resumo',
+			url: 'https://seusite.com/sua_url',
+		})
+		.then(() => console.log('Successful share'))
+		.catch((error) => console.log('Error sharing', error));
+	}
 }
-
-
-SocialShare(tituloParaCompartilhar, urlDaSuaImagem); //Chamando meu método
-				</script>
+</script>
+				
 			</div> 
 			<div class="clearfix"></div>
 		</div>		
@@ -90,8 +94,6 @@ SocialShare(tituloParaCompartilhar, urlDaSuaImagem); //Chamando meu método
 		
 	</div>
 	<!-- Fim corpo site -->
-	
-	
 	
 	<!-- Início menu-js -->
 	<script src="js/classie.js"></script>
@@ -250,7 +252,6 @@ SocialShare(tituloParaCompartilhar, urlDaSuaImagem); //Chamando meu método
 		autocomplete(document.getElementById("myInput"), countries);
 	</script>
 	<!-- fim auto-complete-js -->	
-
 
 </body>
 </html>
