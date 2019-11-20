@@ -63,7 +63,7 @@ function get_query (){
 	
 function no_query_found (){	
 	document.writeln("<div class='pesquisa_branco'>");
-		document.writeln ('<CENTER><br><P>Pesquisa em branco.</P><br></CENTER>');
+		document.writeln ('<CENTER><P>Pesquisa em branco.</P></CENTER>');
 	document.writeln("</div>");
 }
 	
@@ -90,7 +90,7 @@ function find_keyword (the_word){
 }
 
 function print_result (possible_points){
-	document.writeln("<div class='aaa'>");					
+	document.writeln("<div class='resultado_geral'>");					
 		document.writeln ("<div class='style_resultado'>");			
 			document.writeln('<a class="style_resultado_link" href="' + this.url + '">' + this.title + '</a> ' + this.description);
 		document.writeln("</div>");
@@ -98,15 +98,16 @@ function print_result (possible_points){
 }	
 	
 function no_entry_printed (the_query){	
-	document.writeln("<div style='height:468px;'>");
+	document.writeln("<div class='nao_ocorrencia'>");
 		document.writeln (
-			"<CENTER><br><P> Não há ocorrencia da palavra <U><B>" + the_query + "</B></U>.</P><br></CENTER>"
-		); 
+			"<CENTER><P> Não há ocorrencia da palavra <U><B>" + the_query + "</B></U>.</P></CENTER>"); 
 	document.writeln("</div>");
 }
 	
-function print_intro (the_query){	
-	document.writeln ("<CENTER><br><P>Os resultados da pesquisa por <U><B>" + the_query + "</B></U> são:</P><br></CENTER>"); 
+function print_intro (the_query){
+	document.writeln("<div class='nao_ocorrencia'>");	
+		document.writeln ("<CENTER><P>Os resultados da pesquisa por <U><B>" + the_query + "</B></U> são:</P></CENTER>");
+	document.writeln("</div>");
 }
 	
 function begin_search (){	
