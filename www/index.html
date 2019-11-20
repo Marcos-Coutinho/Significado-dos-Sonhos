@@ -30,9 +30,10 @@
 		<nav class="top-nav">
 			<ul class="icon-list">
 				<li class="menu-title">MENU</li>
-				<li><a href="index.html">Início</a></li>
+				
 				<li><a href="#">Sobre o App</a></li>
 				<li><a href="#">Avalie o App</a></li>
+				<li><a href="index.html">Compartilhe o App</a></li>
 				<li><a href="#">Política de Privacidade</a></li>
 			</ul>
 		</nav>
@@ -52,8 +53,9 @@
 				<img src="img/logo-01.svg" alt="">				
 			</div>
 			<div class="bt_pesquisa">				
-				<a href="javascript:void(0)" onclick="socialsharingDemo()" class="bt_share">
-					<img src="img/share.svg">
+				<!-- <a href="javascript:void(0)" onclick="socialsharingDemo()" class="bt_share"> -->
+				<a href="index.html" class="bt_home">
+					<img src="img/home.svg">
 				</a>
 				<script type="text/javascript" src="cordova.js"></script>
 				<script src="js/socialsharing-plugin-demo.js"></script>
@@ -63,7 +65,7 @@
 		
 		<div class="header2"> 			
 			<!-- Verifica se o formulário está com a função de preenchimento automático desativada:-->
-				<form autocomplete="off" method="get">						
+				<form autocomplete="off" method="get">
 					<div class="autocomplete">
 						<input id="myInput" type="text" name="Pesquisar" placeholder="Pesquise aqui...">						
 					</div>					
