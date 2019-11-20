@@ -1,21 +1,27 @@
-.aaa {
+.resultado_geral {
 	padding:0px 10px 0px 10px ;
 	background:#fff;
-	border-top:0px solid #ccc;
 }
 
 .pesquisa_branco{
-
+	margin-top:155px;
 }
+
+.nao_ocorrencia{
+	margin-top:155px;
+}
+
+.ocorrencia{
+	margin-top:155px;
+}
+
 .style_resultado { /* autocomplete JS */
-	border-top:0px solid #ccc;
 	border-bottom:1px solid #ccc;
 	padding-bottom:5px;
 	padding-top:5px;
 	padding-left:10px;
 	padding-right:10px;
 	display:block;
-	background:;
 	font-size:20px;
 	font-family:sans-serif; 
 	color:#000;
@@ -27,8 +33,77 @@
 	font-size:20px;
 }
 
-.style_resultado_link:hover{
-	color:#000;
+/*-- responsivo --*/ 
+@media(min-width:1024px){
+
+
 }
 
-height:468px;
+@media(max-width:736px){
+
+}
+
+@media(max-width:667px){
+
+}
+
+@media(max-width:640px){
+
+}
+
+@media(max-width:600px){
+
+}
+
+@media(max-width:568px){
+
+}
+
+@media(max-width:480px){
+
+}
+
+@media(max-width:414px){
+	.pesquisa_branco{
+		margin-top:120px;
+	}
+	.nao_ocorrencia{
+		margin-top:120px;
+	}
+	.ocorrencia{
+		margin-top:120px;
+	}
+}
+
+@media(max-width:384px){
+
+}
+
+@media(max-width:375px){
+
+}
+
+@media(max-width:360px){
+	.pesquisa_branco{
+		margin-top:120px;
+	}
+	.nao_ocorrencia{
+		margin-top:120px;
+	}
+	.ocorrencia{
+		margin-top:120px;
+	}
+}
+
+@media(max-width:320px){
+	.pesquisa_branco{
+		margin-top:110px;
+	}
+	.nao_ocorrencia{
+		margin-top:110px;
+	}
+	.ocorrencia{
+		margin-top:110px;
+	}
+}
+/*-- FIm responsivo --*/ 

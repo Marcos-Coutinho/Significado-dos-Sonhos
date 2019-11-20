@@ -1,3 +1,12 @@
+/*-- 
+cores: 
+azul 1: 9193a8 texto
+azul 2: 0b0c1b escuro
+azul 3: 30334a claro
+azul 4: 1cbfff submit
+--*/
+
+
 @font-face {
 	font-family: 'Swis721 Cn BT';
 	src: url('../fonts/swiss.ttf');
@@ -45,7 +54,7 @@ ul,label{
 }
 
 .header { /*-- BARRA SUPERIOR --*/
-    background: #30334a; 
+    background: #0b0c1b; 
     padding: 1.2em 3em;
 	position: fixed;
 	top: 0px;
@@ -56,7 +65,7 @@ ul,label{
 }
 
 .header2 { /*-- BARRA SUPERIOR --*/
-    background: #30334a; 
+    background: #0b0c1b; 
 	position: fixed;
 	top: 0px;
 	left: 0;
@@ -127,7 +136,7 @@ ul,label{
     color: #fff;
     border-bottom: 1px solid #9193a8;
     text-transform: none;
-    background: #30334a; /* cor do menu */
+    background: #0b0c1b; /* cor do menu */
     font-family: 'Abel', sans-serif;
 	-webkit-transform: translate3d(0,500px,0);
     -moz-transform: translate3d(0,500px,0);
@@ -310,7 +319,7 @@ ul.nav-sub li a {
     z-index: 1001;
     width: 185px !important;
     height: 100% !important; 
-    background: #30334a; /*-- cor do menu oculto --*/
+    background: #0b0c1b; /*-- cor do menu oculto --*/
     -webkit-transform: translate3d(-320px,0,0);
 	-moz-transform: translate3d(-320px,0,0);
 	-o-transform: translate3d(-320px,0,0);
