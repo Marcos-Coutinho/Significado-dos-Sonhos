@@ -17,11 +17,13 @@
 <link href="css/style_autocomplete_pesquisa.css"  type="text/css" rel="stylesheet">
 <link href="css/responsivo.css" type="text/css" rel="stylesheet" media="all">
 <!-- //Custom Theme files -->
-
+<link href="css/search.css" type="text/css" rel="stylesheet" media="all">
+<link href="css/font-awesome.min.css" rel="stylesheet">
 <!-- Início link javascripts -->
 <script src="js/jquery-2.2.3.min.js"></script> 
 <script src="js/jquery.nicescroll.min.js"></script> <!-- Barra de Rolagem -->
 <!-- Fim link javascripts -->
+<script type="text/javascript" src="cordova.js"></script>
 
 </head>
 <body>		
@@ -29,11 +31,10 @@
 	<div class="menu-wrap" id="style-1"> 
 		<nav class="top-nav">
 			<ul class="icon-list">
-				<li class="menu-title">MENU</li>
-				
+				<li class="menu-title">MENU</li>				
 				<li><a href="#">Sobre o App</a></li>
 				<li><a href="#">Avalie o App</a></li>
-				<li><a href="index.html">Compartilhe o App</a></li>
+				<li><a href="javascript:void(0)" onclick="socialsharingDemo()">Compartilhe o App</a></li>
 				<li><a href="#">Política de Privacidade</a></li>
 			</ul>
 		</nav>
@@ -57,7 +58,6 @@
 				<a href="index.html" class="bt_home">
 					<img src="img/home.svg">
 				</a>
-				<script type="text/javascript" src="cordova.js"></script>
 				<script src="js/socialsharing-plugin-demo.js"></script>
 			</div> 
 			<div class="clearfix"></div>
@@ -65,12 +65,12 @@
 		
 		<div class="header2"> 			
 			<!-- Verifica se o formulário está com a função de preenchimento automático desativada:-->
-				<form autocomplete="off" method="get">
-					<div class="autocomplete">
-						<input id="myInput" type="text" name="Pesquisar" placeholder="Pesquise aqui...">						
-					</div>					
-					<input type="submit" value="Buscar">
-				</form> 
+				<div class="search-w3layouts">
+		<form action="#" method="post" class="d-flex justify-content-center">
+			<input class="" type="search" placeholder="Pesquise aqui..." required="">
+			<button class="fa fa-search" type="submit"></button>
+		</form>
+	</div> 
 			<div class="clearfix"></div>
 		</div>
 		<!-- Fim topo -->
