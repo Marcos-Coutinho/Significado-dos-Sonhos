@@ -11,19 +11,21 @@
 <!-- Fim Tags para aplicação mobile -->
 
 <!-- Custom Theme files -->
-<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+<!-- <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all"> -->
 <link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+<link href="css/menu.css" type="text/css" rel="stylesheet" media="all">
 <link href="css/style_resultado.css" type="text/css" rel="stylesheet" media="all">
 <link href="css/style_autocomplete_pesquisa.css"  type="text/css" rel="stylesheet">
 <link href="css/responsivo.css" type="text/css" rel="stylesheet" media="all">
-<!-- //Custom Theme files -->
 <link href="css/search.css" type="text/css" rel="stylesheet" media="all">
 <link href="css/font-awesome.min.css" rel="stylesheet">
+<!-- //Custom Theme files -->
+
 <!-- Início link javascripts -->
 <script src="js/jquery-2.2.3.min.js"></script> 
 <script src="js/jquery.nicescroll.min.js"></script> <!-- Barra de Rolagem -->
 <!-- Fim link javascripts -->
-<script type="text/javascript" src="cordova.js"></script>
+
 
 </head>
 <body>		
@@ -34,7 +36,7 @@
 				<li class="menu-title">MENU</li>				
 				<li><a href="#">Sobre o App</a></li>
 				<li><a href="#">Avalie o App</a></li>
-				<li><a href="javascript:void(0)" onclick="socialsharingDemo()">Compartilhe o App</a></li>
+				<li><a href="#">Compartilhe o App</a></li>
 				<li><a href="#">Política de Privacidade</a></li>
 			</ul>
 		</nav>
@@ -43,8 +45,7 @@
 	<!-- Fim menu -->
 		
 	<!-- Início corpo site -->
-	<div class="content-wrap">
-	
+	<div class="content-wrap">	
 		<!-- Início topo -->
 		<div class="header"> 
 			<div class="menu-icon">   
@@ -53,33 +54,30 @@
 			<div class="logo">				
 				<img src="img/logo-01.svg" alt="">				
 			</div>
-			<div class="bt_pesquisa">				
-				<!-- <a href="javascript:void(0)" onclick="socialsharingDemo()" class="bt_share"> -->
+			<div class="bt_header_right">				
 				<a href="index.html" class="bt_home">
 					<img src="img/home.svg">
-				</a>
-				<script src="js/socialsharing-plugin-demo.js"></script>
-			</div> 
-			<div class="clearfix"></div>
+				</a>				
+			</div>			
 		</div>		
 		
-		<div class="header2"> 			
-			<!-- Verifica se o formulário está com a função de preenchimento automático desativada:-->
-			<div class="search-w3layouts">
+		<div class="header2">
+			<!-- Início CSS Search -->
+			<div class="search_pesq">
 				<form method="get" class="d-flex justify-content-center" autocomplete="off" action="resultado.html">
 					<div class="autocomplete">
-						<input name="Pesquisar" class="" type="search" placeholder="Pesquise aqui..." required="" id="myInput">
+						<input name="Pesquisar" type="search" placeholder="Pesquise aqui..." id="myInput" required="">
 					</div>
-					<button class="fa fa-search" type="submit"></button>					
+					<button class="fa fa-search" type="submit" id="bt_submit"></button>					
 				</form>
-			</div> 
-			<div class="clearfix"></div>
+			</div>
+			<!-- Fim CSS Search -->
 		</div>
 		<!-- Fim topo -->
 		
 		<!-- Início Conteúdo -->
 		<div class="conteudo">
-			<script src="js/autocomplete.js"></script>			
+			<script src="js/autocomplete.js"></script>
 		</div>
 		<!-- Fim conteúdo -->
 		
