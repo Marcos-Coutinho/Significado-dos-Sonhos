@@ -104,17 +104,17 @@ ul,label{
 
 .bt_home {
 	margin-top:0px;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
 }
 
-.bt_home.disabled,
-.bt_home[disabled] {
-  pointer-events: none;
-  cursor: not-allowed;
-  filter: alpha(opacity=65);
-  -webkit-box-shadow: none;
-          box-shadow: none;
-  opacity: .65;
-}
+
 
 .bt_home img{
 	height:35px;
