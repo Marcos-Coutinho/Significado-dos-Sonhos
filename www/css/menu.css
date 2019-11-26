@@ -15,7 +15,7 @@
     height: 2.2em;
     border: none;
     text-indent: 2.8em;
-    font-size: 1.1em;
+    font-size: 0.67em;
     color: transparent;
     background: transparent;
     outline: none;
@@ -84,7 +84,7 @@
 }
 
 .top-nav li.menu-title {
-    font-size: 1.8em;
+    font-size: 1.3em;
     padding: 1em 0.8em;
     text-align: left;
     color: #fff;
@@ -101,7 +101,7 @@
 
 
 .top-nav li a {
-    font-size: 1.3em;
+    font-size: 0.85em;
     color: #fff; /* cor da font menu 9193a8*/
     font-weight: 300; 
 	-webkit-transition:.5s all;
@@ -187,7 +187,7 @@
     top: 0.5em;
     overflow: hidden;
     text-indent: 1em;
-    font-size: 1.5em;
+    font-size: 1.1em;
     border: none;
     background: transparent;
     color: transparent;
