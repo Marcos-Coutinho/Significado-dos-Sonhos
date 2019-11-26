@@ -6,6 +6,17 @@ azul 3: 30334a claro
 azul 4: 1cbfff submit
 --*/
 
+
+
+input[type="search"] {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
+
+
 /*----------- INÍCIO GERAL ------------*/
 @font-face {
 	font-family: 'Swis721 Cn BT';
@@ -48,15 +59,6 @@ a{
 a:active,
 a:hover {
   outline: 0;
-}
-
-a[href]:after {
-    content: " (" attr(href) ")";
-}
-
-a[href^="#"]:after,
-a[href^="javascript:"]:after {
-	content: "";
 }
 
 ul,label{
