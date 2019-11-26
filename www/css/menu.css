@@ -15,7 +15,7 @@
     height: 2.2em;
     border: none;
     text-indent: 2.8em;
-    font-size: 0.8em;
+    font-size: 1.1em;
     color: transparent;
     background: transparent;
     outline: none;
@@ -39,7 +39,7 @@
 .menu-wrap {
     position: fixed;
     z-index: 99;
-    width: 185px !important;
+    width: 200px !important;
     height: 100% !important; 
     background: #0b0c1b; /*-- cor do menu oculto --*/
     -webkit-transform: translate3d(-320px,0,0);
@@ -84,7 +84,7 @@
 }
 
 .top-nav li.menu-title {
-    font-size: 1.5em;
+    font-size: 1.8em;
     padding: 1em 0.8em;
     text-align: left;
     color: #fff;
@@ -101,7 +101,7 @@
 
 
 .top-nav li a {
-    font-size: 0.9em;
+    font-size: 1.3em;
     color: #fff; /* cor da font menu 9193a8*/
     font-weight: 300; 
 	-webkit-transition:.5s all;
@@ -187,7 +187,7 @@
     top: 0.5em;
     overflow: hidden;
     text-indent: 1em;
-    font-size: 1.1em;
+    font-size: 1.5em;
     border: none;
     background: transparent;
     color: transparent;
