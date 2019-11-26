@@ -29,13 +29,13 @@
 /* //search */
 
 /*-- bootstrap.min --*/
-.d-flex{
+.d-flex-search{
 	display:-webkit-box!important;
 	display:-ms-flexbox!important;
 	display:flex!important
 }
 
-.justify-content-center{
+.justify-content-center-search{
 	-webkit-box-pack:center!important;
 	-ms-flex-pack:center!important;
 	justify-content:center!important

@@ -15,7 +15,7 @@
     height: 2.2em;
     border: none;
     text-indent: 2.8em;
-    font-size: 0.7em;
+    font-size: 0.8em;
     color: transparent;
     background: transparent;
     outline: none;
@@ -101,7 +101,7 @@
 
 
 .top-nav li a {
-    font-size: 0.8em;
+    font-size: 0.9em;
     color: #fff; /* cor da font menu 9193a8*/
     font-weight: 300; 
 	-webkit-transition:.5s all;

@@ -30,9 +30,7 @@
 .style_resultado_link{ /* autocomplete JS */
 	color:#000;
 	text-decoration:none;
-	font-size:18px;
-	background: transparent !important;
-    outline: none;
+	font-size:19px;
 }
 
 .style_resultado_link:hover{ /* autocomplete JS */
