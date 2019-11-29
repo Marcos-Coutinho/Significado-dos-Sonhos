@@ -6,7 +6,7 @@ function socialsharingDemo() {
 //      window.plugins.socialsharing.share('Some text');
 
 //      window.plugins.socialsharing.share('test', null, 'data:image/png;base64,R0lGODlhDAAMALMBAP8AAP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAUKAAEALAAAAAAMAAwAQAQZMMhJK7iY4p3nlZ8XgmNlnibXdVqolmhcRQA7', null, function(e){alert("success: " + e)}, function(e){alert("error: " + e)});
-      window.plugins.socialsharing.share('Texto de Comentário', 'Texto de Assunto.', 'https://www.google.nl/images/srpr/logo11w.png', null,);
+      window.plugins.socialsharing.share('Texto de Comentário', 'Texto de Assunto.', 'www/img/icone_app.png', null,);
       // uso alternativo:
 
       // 1) uma imagem local de qualquer outro lugar (se permitido):
