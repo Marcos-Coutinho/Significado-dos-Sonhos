@@ -11,7 +11,6 @@
 <!-- Fim Tags para aplicação mobile -->
 
 <!-- Custom Theme files -->
-<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
 <link href="css/style.css" type="text/css" rel="stylesheet" media="all">
 <link href="css/menu.css" type="text/css" rel="stylesheet" media="all">
 <link href="css/style_resultado.css" type="text/css" rel="stylesheet" media="all">
@@ -25,19 +24,18 @@
 <script src="js/jquery-2.2.3.min.js"></script> 
 <script src="js/jquery.nicescroll.min.js"></script> <!-- Barra de Rolagem -->
 <!-- Fim link javascripts -->
-
-
 </head>
-<body>		
+<body>
+<script type="text/javascript" src="cordova.js"></script>
+		
 	<!-- Início menu -->
 	<div class="menu-wrap" id="style-1"> 
 		<nav class="top-nav">
 			<ul class="icon-list">
-				<li class="menu-title">MENU</li>				
+				<li class="menu-title">MENU</li>
+				<li><a href="index.html">Início</a></li>
 				<li><a href="#">Sobre o App</a></li>
 				<li><a href="#">Avalie o App</a></li>
-				<li><a href="#">Compartilhe o App</a></li>
-				<li><a href="#">Política de Privacidade</a></li>
 			</ul>
 		</nav>
 		<button class="close-button" id="close-button">C</button>
@@ -55,9 +53,12 @@
 				<img src="img/logo-01.svg" alt="">				
 			</div>
 			<div class="bt_header_right">				
-				<a href="index.html" class="bt_home">
-					<img src="img/home.svg">
-				</a>				
+				<a href="javascript:void(0)" onclick="socialsharingDemo()" class="bt_share">
+					<img src="img/share.svg">
+				</a>
+				<!-- plugins compartilhar -->
+				<script src="js/socialsharing-plugin.js"></script>
+				<!-- plugins compartilhar -->
 			</div>			
 		</div>		
 		
@@ -81,8 +82,7 @@
 				Seja Bem Vindo!
 			</div>
 		</div>
-		<!-- Fim conteúdo -->
-		
+		<!-- Fim conteúdo -->		
 	</div>
 	<!-- Fim corpo site -->
 	
