@@ -40,19 +40,23 @@
 		margin: 0.4em;
 	}
 	.header { 
-		padding: 1em 2em;
-		height:60px;
+		padding: .7em 1em;
+		height:50px;
+	}
+	.header2 {
+		height:42px;
+		margin-top:50px;
 	}
 }
 
 @media(max-width:414px){
 	.header {
-		padding: 1em;
-		height:55px;
+		padding: .7em 1em;
+		height:45px;
 	}
 	.header2 {
 		height:42px;
-		margin-top:55px;
+		margin-top:45px;
 	}
 	.conteudo {/*-- CORPO DO SITE --*/ 
 		margin-top:124px;
@@ -72,8 +76,13 @@
 }
 
 @media(max-width:360px){
-	.header2 {
+	.header {
+		padding: 0.5em;
 		height:45px;
+	}
+	.header2 {
+		height:40px;
+		margin-top:45px;
 	}
 	.conteudo {/*-- CORPO DO SITE --*/ 
 		margin-top:100px;
