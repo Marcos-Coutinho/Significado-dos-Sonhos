@@ -10,6 +10,8 @@
     background: #f7f7f7; /* f7f7f7 */
 	border-top-left-radius: 25px;
 	border-bottom-left-radius:25px;
+		width:100%;
+
 }
 
 .search_pesq button {
@@ -56,6 +58,9 @@
 @media(max-width:667px){
 	.search_pesq input[type="search"] {
 		padding: 8px 15px;
+	}
+	.autocomplete {
+		width:75%;
 	}
 }
 /* fim responsivo */
