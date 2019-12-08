@@ -7,14 +7,10 @@ azul 4: 1cbfff submit
 --*/
 
 /* input[type="search"] { */
-  /* -webkit-box-sizing: border-box; */
-     /* -moz-box-sizing: border-box; */
-          /* box-sizing: border-box; */
+	/* -webkit-box-sizing: border-box; */
+	/* -moz-box-sizing: border-box; */
+	/* box-sizing: border-box; */
 /* } */
-
-
-
-
 
 
 /*----------- INÍCIO GERAL ------------*/
@@ -33,7 +29,7 @@ html {
 body{
 	margin:0;
 	line-height: 1.42857143;
-	font-family: 'Roboto', sans-serif; 
+	font-family: sans-serif; 
 	background:#fff;
 	background-size:cover;
 	letter-spacing: 1px;
@@ -140,14 +136,14 @@ ul,label{
 	height:20px;
 	width:auto;
 	cursor:pointer;
-	margin-top:2px;
+	margin-top:5px;
 }
 
 .bt_home img{
 	height:23px;
 	width:auto;
 	cursor:pointer;
-	margin-top:0px;
+	margin-top:4px;
 	/* padding:0px 0px 3px 0px; */
 }
 /*-- FIM BARRA SUPERIOR --*/
@@ -155,7 +151,7 @@ ul,label{
 /*-- INÍCIO CORPO DO SITE --*/
 .conteudo {
 	position: relative; 
-	margin-top:140px;
+	margin-top:110px;
 	margin-bottom:50px;
 	width:100%;
 }
