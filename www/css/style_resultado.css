@@ -4,15 +4,15 @@
 }
 
 .pesquisa_branco{
-	margin-top:155px;
+	margin-top:130px;
 }
 
 .nao_ocorrencia{
-	margin-top:155px;
+	margin-top:130px;
 }
 
 .ocorrencia{
-	margin-top:155px;
+	margin-top:130px;
 }
 
 .style_resultado { /* autocomplete JS */
@@ -69,13 +69,13 @@
 
 @media(max-width:414px){
 	.pesquisa_branco{
-		margin-top:120px;
+		margin-top:100px;
 	}
 	.nao_ocorrencia{
-		margin-top:120px;
+		margin-top:100px;
 	}
 	.ocorrencia{
-		margin-top:120px;
+		margin-top:100px;
 	}
 }
 
@@ -89,25 +89,25 @@
 
 @media(max-width:360px){
 	.pesquisa_branco{
-		margin-top:120px;
+		margin-top:100px;
 	}
 	.nao_ocorrencia{
-		margin-top:120px;
+		margin-top:100px;
 	}
 	.ocorrencia{
-		margin-top:120px;
+		margin-top:100px;
 	}
 }
 
 @media(max-width:320px){
 	.pesquisa_branco{
-		margin-top:110px;
+		margin-top:100px;
 	}
 	.nao_ocorrencia{
-		margin-top:110px;
+		margin-top:100px;
 	}
 	.ocorrencia{
-		margin-top:110px;
+		margin-top:100px;
 	}
 }
 /*-- FIm responsivo --*/ 
