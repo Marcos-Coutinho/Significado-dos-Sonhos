@@ -111,6 +111,14 @@ ul,label{
     text-align: right;
 }
 
+.bt_home1{
+    float: left;
+    width: 33.33%;
+    text-align: left;
+	color:#0b0c1b;
+	opacity:0;
+}
+
 .bt_home {
 	margin-top:0px;
 	-ms-touch-action: manipulation;
@@ -121,6 +129,20 @@ ul,label{
     -ms-user-select: none;
     user-select: none;
 	background-image: none;
+}
+
+.bt_home img{
+	height:23px;
+	width:auto;
+	cursor:pointer;
+	margin-top:4px;
+}
+
+.bt_home img a{
+	height:23px;
+	width:auto;
+	cursor:pointer;
+	margin-top:4px;
 }
 
 .bt_share {
@@ -137,14 +159,6 @@ ul,label{
 	width:auto;
 	cursor:pointer;
 	margin-top:5px;
-}
-
-.bt_home img{
-	height:23px;
-	width:auto;
-	cursor:pointer;
-	margin-top:4px;
-	/* padding:0px 0px 3px 0px; */
 }
 /*-- FIM BARRA SUPERIOR --*/
 
