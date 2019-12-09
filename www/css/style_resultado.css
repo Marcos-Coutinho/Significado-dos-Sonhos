@@ -1,3 +1,16 @@
+
+.overlay {
+	display: none;
+	position: fixed;
+	top: 0px;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 30;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+
 .resultado_geral {
 	padding:0px 10px 0px 10px ;
 	background:#fff;
@@ -9,22 +22,41 @@
 
 .nao_ocorrencia{
 	margin-top:130px;
+	font-size:16px;
 }
 
 .ocorrencia{
 	margin-top:130px;
+	font-size:14px;
+	/* height:100px; */
+}
+
+.separar_ocorrencia {
+	/* margin-top:130px; */
+	font-size:14px;
+	height:1px;
+	margin-left:10px;
+	margin-right:10px;
+	background:#ccc;
+
 }
 
 .style_resultado { /* autocomplete JS */
-	border-bottom:1px solid #ccc;
-	padding-bottom:5px;
-	padding-top:5px;
-	padding-left:10px;
-	padding-right:10px;
-	display:block;
+	padding-left:5px;
+	padding-right:0px;
+	/* display:block; */
 	font-size:18px;
 	font-family:sans-serif; 
 	color:#000;
+	border-bottom:1px solid #ccc;
+}
+
+.style_resultado a{
+	width:100%;
+	display:block;
+	/* background:#ffff00; */
+	padding-bottom:5px;
+	padding-top:5px;
 }
 
 .style_resultado_link{ /* autocomplete JS */
