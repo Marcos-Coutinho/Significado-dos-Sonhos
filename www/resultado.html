@@ -31,7 +31,8 @@
 </head>
 <body>
 <script type="text/javascript" src="cordova.js"></script>
-		
+
+	
 	<!-- Início menu -->
 	<div class="menu-wrap" id="style-1"> 
 		<nav class="top-nav">
@@ -63,9 +64,9 @@
 			</div>
 			
 			<div class="menu_right">
-				<div id="dd1" class="wrapper_dropdown_1" tabindex="1">
+				<div id="dd1" class="wrapper_dropdown_1" tabindex="1">				
 					<img src="img/menu_right.svg" />
-					<ul class="dropdown_menu">
+					<ul class="dropdown_menu">				
 						<li><a href="#">Sonhos de A a Z</a></li>
 						<li><a href="#">Sobre a App</a></li>
 						<li><a href="#">Avalie o App</a></li>
@@ -77,7 +78,7 @@
 							<script src="js/socialsharing-plugin.js"></script>
 							<!-- plugins compartilhar -->
 						</li>
-					</ul>		
+					</ul>					
 					<!-- INÍCIO JAVASCRIPT MENU DROPDOWN -->
 					<script type="text/javascript">
 						function DropDown(el) {
@@ -97,8 +98,8 @@
 							var dd = new DropDown( $('#dd1') );			
 							$(document).click(function() {
 								// all dropdowns
-								$('.wrapper_dropdown_1').removeClass('active');
-							});			
+								$('.wrapper_dropdown_1').removeClass('active');									
+							});
 						});
 					</script>
 					<!-- FIM JAVASCRIPT MENU DROPDOWN -->
@@ -122,7 +123,7 @@
 		
 		<!-- Início Conteúdo -->
 		<div class="conteudo">
-			<script src="js/autocomplete.js"></script>
+			<script src="js/resultado.js"></script>
 		</div>
 		<!-- Fim conteúdo -->		
 	</div>
@@ -243,6 +244,8 @@
 		}		
 		/*An array containing all the country names in the world:*/
 		var countries = [
+		"A",
+		"Abacate",
 		"Afghanistan",
 		"Albania",
 		"Algeria",
